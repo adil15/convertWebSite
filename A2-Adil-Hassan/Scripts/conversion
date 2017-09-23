@@ -1,0 +1,37 @@
+function celconvert(){
+    var fartocel = document.getElementById("input").value;
+    var cel = document.getElementById("answer").innerHTML = ((fartocel -32)*5/(9)).toFixed(2) + " C"; 
+}
+function farconvert(){
+    var celtofar = document.getElementById("input").value;
+    var far = document.getElementById("answer").innerHTML = ((celtofar*9)/5 +32).toFixed(2) + " F";
+}
+function feetconvert(){
+    var mettofeet = document.getElementById("input").value;
+    var feet = document.getElementById("answer").innerHTML = ((mettofeet / 3.28)).toFixed(2) + " ft";
+}
+function metconvert(){
+    var feettomet = document.getElementById("input").value;
+    var meter = document.getElementById("answer").innerHTML = ((feettomet * 0.3048)).toFixed(2)+ " m";
+}
+function inchconvert(){
+    var inchtocm = document.getElementById("input").value;
+    var inch = document.getElementById("answer").innerHTML = ((inchtocm * 2.54)).toFixed(2)+ " in";
+}
+function cmconvert(){
+    var cmtoinch = document.getElementById("input").value;
+    var cm = document.getElementById("answer").innerHTML = ((cmtoinch / 2.54)).toFixed(2) + " cm";
+}
+function poundconvert(){
+    var kgtopound = document.getElementById("input").value;
+    var pound = document.getElementById("answer").innerHTML = ((kgtopound * 2.2)).toFixed(2) + " lbs";
+}
+function kgconvert(){
+    var poundtokg = document.getElementById("input").value;
+    var kg = document.getElementById("answer").innerHTML = ((poundtokg / 2.2)).toFixed(2) + " kg";
+}
+
+function pgreset(){
+    document.getElementById("answer").innerHTML = " ";
+}
+

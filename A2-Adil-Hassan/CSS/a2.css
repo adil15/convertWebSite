@@ -1,0 +1,31 @@
+
+
+
+
+#topsection{
+background: #EAEAEA;
+height: 20%; 
+}
+
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+    
+}
+#leftcolumn{
+position: fixed;
+height: 100%; /*Width of left column*/
+width: 20%;
+    background-color: cadetblue;
+}
+input[type=button]{
+    width: 10%;
+    font-size: 14pt;
+    
+    
+}
+input[type=reset]{
+    width: 10%;
+    font-size: 14pt;
+}
